@@ -1,6 +1,6 @@
 {
   "songs": [
-    { "id": "song001", "title": "Sample Track 1", "artist": "Artist A", "cover": "/images/song001.jpg", "src": "/music/song001.mp3", "lyrics": "/lyrics/song001.lrc" },
+    { "id": "song001", "title": "Tere Hawale", "artist": "Arijit Singh", "cover": "/images/song001.jpg", "src": "/music/hawale.mp3", "lyrics": "/lyrics/song001.lrc" },
     { "id": "song002", "title": "Sample Track 2", "artist": "Artist B", "cover": "/images/song002.jpg", "src": "/music/song002.mp3", "lyrics": "/lyrics/song002.lrc" },
     { "id": "song003", "title": "Sample Track 3", "artist": "Artist C", "cover": "/images/song003.jpg", "src": "/music/song003.mp3", "lyrics": "/lyrics/song003.lrc" },
     { "id": "song004", "title": "Sample Track 4", "artist": "Artist D", "cover": "/images/song004.jpg", "src": "/music/song004.mp3", "lyrics": "/lyrics/song004.lrc" },
