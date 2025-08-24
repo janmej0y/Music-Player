@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MusePlayer — Web Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body data-theme="dark">
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="logo" aria-hidden="true">🎵</span>
+          <span class="name">MusePlayer</span>
+        </div>
+        <div class="top-actions">
+          <input id="searchInput" class="search" type="search" placeholder="Search title or artist" autocomplete="off" />
+          <button id="themeToggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="playlist-panel" aria-label="Playlist">
+          <ul id="playlist" class="playlist" role="list"></ul>
+        </aside>
+
+        <section class="now-playing" aria-label="Now playing">
+          <div class="art-and-visual">
+            <div class="album-art" id="albumArt">
+              <img id="coverImage" alt="Album cover" />
+              <div class="art-fallback" aria-hidden="true"></div>
+            </div>
+            <canvas id="visualizer" width="800" height="240" aria-label="Audio visualizer"></canvas>
+          </div>
+
+          <div class="track-meta">
+            <h2 id="trackTitle" class="track-title">—</h2>
+            <p id="trackArtist" class="track-artist">—</p>
+          </div>
+
+          <div class="controls">
+            <div class="transport">
+              <button id="shuffleBtn" class="icon-btn" title="Shuffle" aria-pressed="false">🔀</button>
+              <button id="prevBtn" class="icon-btn" title="Previous">⏮️</button>
+              <button id="playPauseBtn" class="play-btn" title="Play/Pause" aria-pressed="false">▶️</button>
+              <button id="nextBtn" class="icon-btn" title="Next">⏭️</button>
+              <button id="repeatBtn" class="icon-btn" title="Repeat mode" data-mode="off">🔁</button>
+            </div>
+
+            <div class="progress-row">
+              <span id="currentTime" class="time">0:00</span>
+              <input id="progressRange" class="progress" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek" />
+              <span id="duration" class="time">0:00</span>
+            </div>
+
+            <div class="volume-row">
+              <button id="muteBtn" class="icon-btn" title="Mute/Unmute">🔈</button>
+              <input id="volumeRange" class="volume" type="range" min="0" max="100" value="80" step="1" aria-label="Volume" />
+            </div>
+          </div>
+
+          <div class="lyrics-container" aria-live="polite" aria-label="Lyrics">
+            <ul id="lyricsList" class="lyrics" role="list"></ul>
+          </div>
+        </section>
+      </main>
+
+      <audio id="audio" preload="metadata" crossorigin="anonymous"></audio>
+    </div>
+
+    <script src="/script.js" defer></script>
+  </body>
+  </html>
+
