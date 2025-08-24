@@ -1,9 +1,9 @@
 {
   "songs": [
     { "id": "song001", "title": "Tere Hawale", "artist": "Arijit Singh", "cover": "/images/song001.jpg", "src": "/music/hawale.mp3", "lyrics": "/lyrics/song001.lrc" },
-    { "id": "song002", "title": "Sample Track 2", "artist": "Artist B", "cover": "/images/song002.jpg", "src": "/music/song002.mp3", "lyrics": "/lyrics/song002.lrc" },
-    { "id": "song003", "title": "Sample Track 3", "artist": "Artist C", "cover": "/images/song003.jpg", "src": "/music/song003.mp3", "lyrics": "/lyrics/song003.lrc" },
-    { "id": "song004", "title": "Sample Track 4", "artist": "Artist D", "cover": "/images/song004.jpg", "src": "/music/song004.mp3", "lyrics": "/lyrics/song004.lrc" },
+    { "id": "song002", "title": "Apna Bana Le", "artist": "Arijit Singh", "cover": "/images/song002.jpg", "src": "/music/Apna Bana Le.mp3", "lyrics": "/lyrics/song002.lrc" },
+    { "id": "song003", "title": "O maahi", "artist": "Arijit Singh", "cover": "/images/song003.jpg", "src": "/music/O maahi.mp3", "lyrics": "/lyrics/song003.lrc" },
+    { "id": "song004", "title": "Sajni Re", "artist": "Arijit Singh", "cover": "/images/song004.jpg", "src": "/music/Sajni Re.mp3", "lyrics": "/lyrics/song004.lrc" },
     { "id": "song005", "title": "Sample Track 5", "artist": "Artist E", "cover": "/images/song005.jpg", "src": "/music/song005.mp3", "lyrics": "/lyrics/song005.lrc" },
     { "id": "song006", "title": "Sample Track 6", "artist": "Artist F", "cover": "/images/song006.jpg", "src": "/music/song006.mp3", "lyrics": "/lyrics/song006.lrc" },
     { "id": "song007", "title": "Sample Track 7", "artist": "Artist G", "cover": "/images/song007.jpg", "src": "/music/song007.mp3", "lyrics": "/lyrics/song007.lrc" },
