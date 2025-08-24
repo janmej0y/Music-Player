@@ -1,0 +1,21 @@
+{
+  "songs": [
+    {
+      "id": "song1",
+      "title": "Sample Song 1",
+      "artist": "Sample Artist",
+      "cover": "/images/song1.jpg",
+      "src": "/music/song1.mp3",
+      "lyrics": "/lyrics/song1.lrc"
+    },
+    {
+      "id": "song2",
+      "title": "Sample Song 2",
+      "artist": "Another Artist",
+      "cover": "/images/song2.jpg",
+      "src": "/music/song2.mp3",
+      "lyrics": "/lyrics/song2.lrc"
+    }
+  ]
+}
+
