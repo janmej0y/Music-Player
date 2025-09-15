@@ -15,7 +15,7 @@ Run locally
 ----------
 
 Use any static server. Examples:
-
+ 
 1) Python 3: `python3 -m http.server 5173 --bind 0.0.0.0`
 2) Node: `npx http-server -p 5173 .`
 
